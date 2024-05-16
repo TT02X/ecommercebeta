@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -405,6 +409,14 @@ body {
     align-items: flex-start;
     justify-content: center;
   }
+  .conteinerr {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: center;
+  }
   .card {
     height: 400px;
     width: 300px;
@@ -425,7 +437,7 @@ body {
   }
   
   .imagen_del_auto {
-    background-image: url(https://fairwheels.com/wp-content/uploads/2016/11/Honda-CR-V-2.4-LPrice-And-Specification.png);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/honda%20cr%20v%201.jpg?raw=true);
     height: 140px;
     width: 300px;
     background-size: cover;
@@ -437,7 +449,7 @@ body {
   .imagen_del_auto_2 {
     height: 120px;
     width: 200px;
-    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4Lxn1M5CIa4P09NhACnTpCHRQPGZ9ff5pa1FpmDMTuzqOg4sZ);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 180px;
     transition: 300ms;
@@ -447,7 +459,7 @@ body {
   .imagen_del_auto_3 {
     height: 150px;
     width: 240px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAjMqS42HG-wWsLJ70ybRKxhsz68BREyVbaiWPWDqlLQ&s);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/mazda%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -457,7 +469,7 @@ body {
   .imagen_del_auto_4 {
     height: 180px;
     width: 300px;
-    background-image: url(https://www.motortrend.com/uploads/sites/10/2016/09/2017-subaru-forester-limited-cvt-suv-angular-front.png);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/subaro%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 210px;
     transition: 300ms;
@@ -467,7 +479,7 @@ body {
   .imagen_del_auto_5 {
     height: 140px;
     width: 300px;
-    background-image: url(https://media.toyota.com.ar/b90e14a0-dca9-410b-a2e9-ffd399d5edd1.png);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/corolla%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 190px;
     transition: 300ms;
@@ -477,7 +489,7 @@ body {
   .imagen_del_auto_6 {
     height: 140px;
     width: 260px;
-    background-image: url(file:///C:/Users/villa/OneDrive/Im%C3%A1genes/rta%201.jpg);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/rta%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 190px;
     transition: 300ms;
@@ -487,7 +499,7 @@ body {
   .imagen_del_auto_7 {
     height: 140px;
   width: 260px;
-    background-image: url(https://media.toyota.com.ar/cf12eaca-20a8-419f-9506-4bcdb27420e6.png);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/etios%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 190px;
     transition: 300ms;
@@ -497,7 +509,7 @@ body {
   .imagen_del_auto_8 {
     height: 140px;
     width: 260px;
-    background-image: url(https://i.pinimg.com/564x/9a/5b/ca/9a5bcac7b8426b554b348ef03bd1952d.jpg);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 195px;
     transition: 300ms;
@@ -507,7 +519,7 @@ body {
   .imagen_del_auto_9 {
     height: 140px;
     width: 260px;
-    background-image: url(https://media.toyota.com.ar/a66a0788-4dee-44a3-8ce9-3b2cb6213bdb.png);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 195px;
     transition: 300ms;
@@ -517,7 +529,7 @@ body {
   .imagen_del_auto_10 {
     height: 140px;
     width: 260px;
-    background-image: url(https://media.toyota.com.ar/36b9f77d-e0f6-45fe-95db-ae5e538ae650.png);
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%201.jpg?raw=true);
     background-size: cover;
     margin-bottom: 195px;
     transition: 300ms;
@@ -537,99 +549,152 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     transition: 300ms;
   }
+  .vermass{
+    padding: 5%;
+    margin: 5%;
+    color: #ffffff ;
+   
+   }
+    .vermenoss{
+      color: #ffffff ; 
+   
+    }
+    .autosventa{
+     padding: 5%;
+     margin: 5%;
+
+    }
+    h2 {
+      color:#ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    p {
+      color: #ffffff;
+      margin: auto;
+      width: 90%;
+      font-size: 16px;
+    }
+    .boton {
+      width: 10px 20px;
+      height: 30px;
+    }
+    .boton {
+      width: 200px;
+      height: 50px;
+      margin: auto;
+      cursor: pointer;
+      background: #3498db;
+      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+      background-image: -o-linear-gradient(top, #3498db, #2980b9);
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      -webkit-border-radius: 24;
+      -moz-border-radius: 24;
+      border-radius: 24px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 36px;
+      padding: 10px 19px 10px 17px;
+      text-decoration: none;
+    }
+
+
   /*hover*/
   .card:hover .autos, .autos_2, .autos_3, .autos_4, .autos_5, .autos_6, .autos_7, .autos_8, .autos_9, .autos_10 {
     scale:(1.5);
   }
-  .card:hover .imagen_del_auto {
-    transform: translateY(-50px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(http://www.autodata1.com/media/honda/pics/honda-cr-v-iv-[16613].jpg);
-    height: 210px;
-    width: 190px;
-  }
-  .card:hover .imagen_del_auto_2 {
-    transform: translateY(-50px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(https://w7.pngwing.com/pngs/708/443/png-transparent-2016-honda-civic-2018-honda-civic-2017-honda-civic-car-honda-compact-car-sedan-car.png);
-    height: 170px;
-    width: 290px;
-    margin-bottom: 130px;
-  }
-  .card:hover .imagen_del_auto_3 {
-    transform: translateY(-40px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(file:///C:/Users/villa/OneDrive/Im%C3%A1genes/marav%202.jpg);
-    height: 220px;
-    width: 190px;
-    margin-bottom: 220px;
-  }
-  .card:hover .imagen_del_auto_4 {
-    transform: translateY(-40px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(file:///C:/Users/villa/OneDrive/Im%C3%A1genes/subaro%202.jpg);
-    height: 220px;
-    width: 190px;
-    margin-bottom: 220px;
-  }
-  .card:hover .imagen_del_auto_5 {
-    transform: translateY(-40px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(file:///C:/Users/villa/OneDrive/Im%C3%A1genes/corolla%202.jpg);
-    height: 220px;
-    width: 350px;
-    margin-bottom: 130px;
-  }
-  .card:hover .imagen_del_auto_6 {
-    transform: translateY(-40px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(file:///C:/Users/villa/OneDrive/Im%C3%A1genes/toyota%202.jpg);
-    height: 150px;
-    width: 300px;
-    margin-bottom: 140px;
-  }
-  .card:hover .imagen_del_auto_7 {
-    transform: translateY(-40px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(file:///C:/Users/villa/OneDrive/Im%C3%A1genes/etios%202.jpg);
-    height: 145px;
-    width: 340px;
-    margin-bottom: 110px;
-  }
-  .card:hover .imagen_del_auto_8 {
-    transform: translateY(-40px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(https://i.pinimg.com/564x/9a/5b/ca/9a5bcac7b8426b554b348ef03bd1952d.jpg);
-    height: 160px;
-    width: 340px;
-    margin-bottom: 120px;
-  }
-  .card:hover .imagen_del_auto_9 {
-    transform: translateY(-40px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(file:///C:/Users/villa/OneDrive/Im%C3%A1genes/yaris%202.jpg);
-    height: 160px;
-    width: 340px;
-    margin-bottom: 120px;
-  }
-  .card:hover .imagen_del_auto_10 {
-    transform: translateY(-40px);
-    transition: 300ms;
-    filter: none;
-    background-image: url(file:///C:/Users/villa/OneDrive/Im%C3%A1genes/hilux%202.jpg);
-    height: 155px;
-    width: 340px;
-    margin-bottom: 130px;
-  }
+.card:hover .imagen_del_auto {
+  transform: translateY(-50px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/crv%202.jpg?raw=true);
+  height: 210px;
+  width: 190px;
+}
+.card:hover .imagen_del_auto_2 {
+  transform: translateY(-50px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%202.jpg?raw=true);
+  height: 170px;
+  width: 290px;
+  margin-bottom: 130px;
+}
+.card:hover .imagen_del_auto_3 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/marav%202.jpg?raw=true);
+  height: 220px;
+  width: 190px;
+  margin-bottom: 220px;
+}
+.card:hover .imagen_del_auto_4 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/subaro%202.jpg?raw=true);
+  height: 220px;
+  width: 190px;
+  margin-bottom: 220px;
+}
+.card:hover .imagen_del_auto_5 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/corolla%202.jpg?raw=true);
+  height: 220px;
+  width: 350px;
+  margin-bottom: 130px;
+}
+.card:hover .imagen_del_auto_6 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/toyota%202.jpg?raw=true);
+  height: 150px;
+  width: 300px;
+  margin-bottom: 140px;
+}
+.card:hover .imagen_del_auto_7 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/etios%202.jpg?raw=true);
+  height: 145px;
+  width: 340px;
+  margin-bottom: 110px;
+}
+.card:hover .imagen_del_auto_8 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%202.jpg?raw=true);
+  height: 160px;
+  width: 340px;
+  margin-bottom: 120px;
+}
+.card:hover .imagen_del_auto_9 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%202.jpg?raw=true);
+  height: 160px;
+  width: 340px;
+  margin-bottom: 120px;
+}
+.card:hover .imagen_del_auto_10 {
+  transform: translateY(-40px);
+  transition: 300ms;
+  filter: none;
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%202.jpg?raw=true);
+  height: 155px;
+  width: 340px;
+  margin-bottom: 130px;
+}
   .card:hover .autos {
     background-image: radial-gradient(white, rgb(50, 30, 20));
   }
@@ -660,42 +725,7 @@ body {
   .card:hover .autos_10 {
     background-image: radial-gradient(white, rgb(50, 30, 20));
   }
-  h2 {
-    color:#ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  p {
-    color: #ffffff;
-    margin: auto;
-    width: 90%;
-    font-size: 16px;
-  }
-  .boton {
-    width: 10px 20px;
-    height: 30px;
-  }
-  .boton {
-    width: 200px;
-    height: 50px;
-    margin: auto;
-    cursor: pointer;
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 24;
-    -moz-border-radius: 24;
-    border-radius: 24px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 36px;
-    padding: 10px 19px 10px 17px;
-    text-decoration: none;
-  }
+ 
   
   .boton:hover {
     background: #661c3e;
@@ -706,3 +736,4 @@ body {
     background-image: linear-gradient(to bottom, #661c3e, #8f2974);
     text-decoration: none;
   }
+ 
