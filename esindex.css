@@ -1,8 +1,4 @@
-a{
-  text-decoration: none;
-}
-
-body {
+  #Accesorios ,#carrito{
     margin: 0;
     padding: 0;
     background: url(https://github.com/Nahir13/Ecommerce/blob/main/img/FLogin.jpg?raw=true);
@@ -11,6 +7,10 @@ body {
     font-family: sans-serif;
     height: 100vh;
   }
+  a{
+    text-decoration: none;
+  }
+  
   .navbar{
     height: 60px;
     background-color:black;
@@ -37,7 +37,6 @@ body {
     background-color:black;
     height: 25px;
     width: 96px;
-    display: flex;
     margin: 3px;
     border-style: none;
     color: rgba(255, 255, 255, 0.87);
@@ -45,7 +44,6 @@ body {
   .nav:hover{
     background-color:rgb(70, 69, 69);
     color: rgb(255, 255, 255);
-    width: 130px;
   }
   #but:hover{
     background-color:rgb(70, 69, 69);
@@ -356,7 +354,7 @@ body {
   u{
       color: #7AB2B2;
   }
-  button{
+  .PButton{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background-color: #3c44a7;
       display: block;
@@ -370,7 +368,7 @@ body {
       margin-left: 50px;
       margin-bottom: 5px;
   }
-  button:hover{
+  .PButton:hover{
       background-color: #7AB2B2;
   }
   
@@ -396,21 +394,13 @@ body {
   .cuerpo {
     background-image: linear-gradient(to right, #000, #333333, #ffffff);
     height:100vh;
-    display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: center; 
+    margin: 0;
   }
   .conteiner {
     margin-top: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .conteinerr {
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -549,6 +539,14 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     transition: 300ms;
   }
+  .conteinerr {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: center;
+  }
   .vermass{
     padding: 5%;
     margin: 5%;
@@ -564,137 +562,99 @@ body {
      margin: 5%;
 
     }
-    h2 {
-      color:#ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    p {
-      color: #ffffff;
-      margin: auto;
-      width: 90%;
-      font-size: 16px;
-    }
-    .boton {
-      width: 10px 20px;
-      height: 30px;
-    }
-    .boton {
-      width: 200px;
-      height: 50px;
-      margin: auto;
-      cursor: pointer;
-      background: #3498db;
-      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-      background-image: -o-linear-gradient(top, #3498db, #2980b9);
-      background-image: linear-gradient(to bottom, #3498db, #2980b9);
-      -webkit-border-radius: 24;
-      -moz-border-radius: 24;
-      border-radius: 24px;
-      font-family: Arial;
-      color: #ffffff;
-      font-size: 36px;
-      padding: 10px 19px 10px 17px;
-      text-decoration: none;
-    }
-
-
   /*hover*/
   .card:hover .autos, .autos_2, .autos_3, .autos_4, .autos_5, .autos_6, .autos_7, .autos_8, .autos_9, .autos_10 {
     scale:(1.5);
   }
-.card:hover .imagen_del_auto {
-  transform: translateY(-50px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/crv%202.jpg?raw=true);
-  height: 210px;
-  width: 190px;
-}
-.card:hover .imagen_del_auto_2 {
-  transform: translateY(-50px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%202.jpg?raw=true);
-  height: 170px;
-  width: 290px;
-  margin-bottom: 130px;
-}
-.card:hover .imagen_del_auto_3 {
-  transform: translateY(-40px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/marav%202.jpg?raw=true);
-  height: 220px;
-  width: 190px;
-  margin-bottom: 220px;
-}
-.card:hover .imagen_del_auto_4 {
-  transform: translateY(-40px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/subaro%202.jpg?raw=true);
-  height: 220px;
-  width: 190px;
-  margin-bottom: 220px;
-}
-.card:hover .imagen_del_auto_5 {
-  transform: translateY(-40px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/corolla%202.jpg?raw=true);
-  height: 220px;
-  width: 350px;
-  margin-bottom: 130px;
-}
-.card:hover .imagen_del_auto_6 {
-  transform: translateY(-40px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/toyota%202.jpg?raw=true);
-  height: 150px;
-  width: 300px;
-  margin-bottom: 140px;
-}
-.card:hover .imagen_del_auto_7 {
-  transform: translateY(-40px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/etios%202.jpg?raw=true);
-  height: 145px;
-  width: 340px;
-  margin-bottom: 110px;
-}
-.card:hover .imagen_del_auto_8 {
-  transform: translateY(-40px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%202.jpg?raw=true);
-  height: 160px;
-  width: 340px;
-  margin-bottom: 120px;
-}
-.card:hover .imagen_del_auto_9 {
-  transform: translateY(-40px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%202.jpg?raw=true);
-  height: 160px;
-  width: 340px;
-  margin-bottom: 120px;
-}
-.card:hover .imagen_del_auto_10 {
-  transform: translateY(-40px);
-  transition: 300ms;
-  filter: none;
-  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%202.jpg?raw=true);
-  height: 155px;
-  width: 340px;
-  margin-bottom: 130px;
-}
+  .card:hover .imagen_del_auto {
+    transform: translateY(-50px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/crv%202.jpg?raw=true);
+    height: 210px;
+    width: 190px;
+  }
+  .card:hover .imagen_del_auto_2 {
+    transform: translateY(-50px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%202.jpg?raw=true);
+    height: 170px;
+    width: 290px;
+    margin-bottom: 130px;
+  }
+  .card:hover .imagen_del_auto_3 {
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/marav%202.jpg?raw=true);
+    height: 220px;
+    width: 190px;
+    margin-bottom: 220px;
+  }
+  .card:hover .imagen_del_auto_4 {
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/subaro%202.jpg?raw=true);
+    height: 220px;
+    width: 190px;
+    margin-bottom: 220px;
+  }
+  .card:hover .imagen_del_auto_5 {
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/corolla%202.jpg?raw=true);
+    height: 220px;
+    width: 350px;
+    margin-bottom: 130px;
+  }
+  .card:hover .imagen_del_auto_6 {
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/toyota%202.jpg?raw=true);
+    height: 150px;
+    width: 300px;
+    margin-bottom: 140px;
+  }
+  .card:hover .imagen_del_auto_7 {
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/etios%202.jpg?raw=true);
+    height: 145px;
+    width: 340px;
+    margin-bottom: 110px;
+  }
+  .card:hover .imagen_del_auto_8 {
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%202.jpg?raw=true);
+    height: 160px;
+    width: 340px;
+    margin-bottom: 120px;
+  }
+  .card:hover .imagen_del_auto_9 {
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%202.jpg?raw=true);
+    height: 160px;
+    width: 340px;
+    margin-bottom: 120px;
+  }
+  .card:hover .imagen_del_auto_10 {
+    transform: translateY(-40px);
+    transition: 300ms;
+    filter: none;
+    background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%202.jpg?raw=true);
+    height: 155px;
+    width: 340px;
+    margin-bottom: 130px;
+  }
   .card:hover .autos {
     background-image: radial-gradient(white, rgb(50, 30, 20));
   }
@@ -725,7 +685,42 @@ body {
   .card:hover .autos_10 {
     background-image: radial-gradient(white, rgb(50, 30, 20));
   }
- 
+  h2 {
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  p {
+    color: #ffffff;
+    margin: auto;
+    width: 90%;
+    font-size: 16px;
+  }
+  .boton {
+    width: 10px 20px;
+    height: 30px;
+  }
+  .boton {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    cursor: pointer;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 36px;
+    padding: 10px 19px 10px 17px;
+    text-decoration: none;
+  }
   
   .boton:hover {
     background: #661c3e;
@@ -736,4 +731,3 @@ body {
     background-image: linear-gradient(to bottom, #661c3e, #8f2974);
     text-decoration: none;
   }
- 
