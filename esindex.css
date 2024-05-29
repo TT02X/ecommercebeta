@@ -1,4 +1,4 @@
-  #Accesorios ,#carrito{
+ #Accesorios ,#carrito{
     margin: 0;
     padding: 0;
     background: url(https://github.com/Nahir13/Ecommerce/blob/main/img/FLogin.jpg?raw=true);
@@ -11,7 +11,7 @@
     text-decoration: none;
   }
   
-  .navbar{
+  .navvbar{
     height: 60px;
     background-color:black;
     display: flex;
@@ -171,7 +171,7 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
   
-    .text{
+    .texte{
      width: 98%; 
      background-color: #ffffff;
      z-index: 100%;
@@ -189,53 +189,53 @@
       font-size: 20px ;
       color: #000;
      }   
-    .unidos{
-       width: 100%;
-       height: 20%;
-       background-repeat: no-repeat;
-    }
-    .bannerunidos1{
-      font-size: 45px;
-      color: #ffffff;
-      z-index: 100%;
-      position: absolute; 
-      top: 270px; 
-      left: 7%;
-  
-    }
-    .bannerunidos{
-      font-size: 40px;
-      color: #ffffff;
-      z-index: 100%;
-      position: absolute; 
-      top: 760px; 
-      left: 7%;
-  
-    }
-    .banner{
-        font-size: 35px; 
-        color: #ffffff;
-        z-index: 100%   ;
-        position: absolute; top: 400px; left: 7%;
-  
-    } 
+     .unidoss{
+      width: 100%;
+      height: 20%;
+      background-repeat: no-repeat;
+   }
+   .bannerunidoss1{
+     font-size: 45px;
+     color: #ffffff;
+     z-index: 100%;
+     position: absolute; 
+     top: 270px; 
+     left: 7%;
+ 
+   }
+   .bannerunidoss{
+     font-size: 40px;
+     color: #ffffff;
+     z-index: 100%;
+     position: absolute; 
+     top: 760px; 
+     left: 7%;
+ 
+   }
+   .bannerr{
+       font-size: 35px; 
+       color: #ffffff;
+       z-index: 100%   ;
+       position: absolute; top: 400px; left: 7%;
+ 
+   } 
     @media(width <= 1199px){
-      .banner{
-        display: flex;
-        font-size: 20px;
-        top: 320px;
-      }
-      .bannerunidos{
+     .bannerr{
+       display: flex;
+       font-size: 20px;
+       top: 320px;
+     }
+     .bannerunidoss{
+       display: flex;
+       font-size: 22px;
+       top: 520px;
+     }
+     .bannerunidoss1{
         display: flex;
         font-size: 22px;
-        top: 520px;
-      }
-      .bannerunidos1{
-         display: flex;
-         font-size: 22px;
-         top: none;
-      }
-    }
+        top: none;
+     } 
+   }
     .contenedor{
       text-align: center;
       background-color: #D6DAC8;
@@ -280,13 +280,13 @@
       padding: 2px;
       text-align: center;
   }
-  .productos{
+  .productos2{
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
       margin: 10px;
   }
-  .foto{
+  .fotoo{
       background-image: url(https://4.bp.blogspot.com/-aTO6McxCjNg/Tm0L0zxGA0I/AAAAAAAAAHI/wn1kpBr44cg/ELCONSTRUCTOR-Focos%252520H4%252520Tipo%252520Xenon%252520Autos%252520Y%252520Camionetas.jpg);
       border: 1px solid #acdddd;
       width: 310px;
@@ -299,7 +299,7 @@
       background-size: 150px;
       border-radius: 8px;
   }
-  .foto1{
+  .fotoo1{
       background-image: url(https://tse3.mm.bing.net/th?id=OIP.cd8Mm_8H2P-4dxO8RdHILQHaHa&pid=Api&P=0&h=180);
       background-position: center;
       background-color: white;
@@ -312,7 +312,7 @@
       background-repeat: no-repeat;
       border-radius: 8px;
   }
-  .foto2{
+  .fotoo2{
       background-image: url(https://tse3.mm.bing.net/th?id=OIP.iNtX4zRV8PHqA4HmXMiqcAHaGY&pid=Api&P=0&h=180);
       background-position: center;
       width: 310px;
@@ -325,7 +325,7 @@
       background-repeat: no-repeat;
       background-color: white;
   }
-  .foto3{
+  .fotoo3{
       background-image: url(https://tse3.mm.bing.net/th?id=OIP.UjudSqDldQRGEz1ZX27lVQHaDy&pid=Api&P=0&h=180);
       background-position: center;
       width: 310px;
@@ -354,7 +354,7 @@
   u{
       color: #7AB2B2;
   }
-  .PButton{
+  .PBButton{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background-color: #3c44a7;
       display: block;
@@ -368,7 +368,7 @@
       margin-left: 50px;
       margin-bottom: 5px;
   }
-  .PButton:hover{
+  .PBButton:hover{
       background-color: #7AB2B2;
   }
   
@@ -562,6 +562,7 @@
      margin: 5%;
 
     }
+
   /*hover*/
   .card:hover .autos, .autos_2, .autos_3, .autos_4, .autos_5, .autos_6, .autos_7, .autos_8, .autos_9, .autos_10 {
     scale:(1.5);
