@@ -1,98 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="esindex.css">
     <title>Zamazor</title>
 </head>
+
 <body ID="Accesorios">
-    <div class="navvbar">
+    <div class="nav-zamazor">
         <div class="item">
             <a class="logo" href="index.html">
-         <div id="logo"> </div>
-        </a>
-        </div>
-        <div>
-            <a href="cards.html"> 
-                 <button class="nav">PRODUCTOS</button>
+                <div id="logo"> </div>
             </a>
         </div>
         <div>
-            <a href="productosespecificos.html"> 
-                 <button class="nav">ACCESORIOS</button>
+            <a href="Cards.html">
+                <button class="nav-button">PRODUCTOS</button>
             </a>
         </div>
         <div>
-            <a href="carrito.html"> 
-                 <button class="nav">CARRITO</button>
-        </a>
+            <a href="productosespecificos.html">
+                <button class="nav-button">ACCESORIOS</button>
+            </a>
         </div>
-        <div class="nav" style="background-color:rgba(255, 255, 255, 0) ;">
+        <div>
+            <a href="Carrito.html">
+                <button class="nav-button">CARRITO</button>
+            </a>
+        </div>
+        <div class="nav-button" style="background-color:rgba(255, 255, 255, 0) ;">
             <a href="index.html"><button id="but"><img src="img/user.png" style="height: 15px;">Registrar</button></a>
-            <a href="aboutUs.html"><button id="but"><img src="https://github.com/Nahir13/Ecommerce/blob/main/img/AboutUs.png?raw=true" style="height: 12px;">Nosotros</button>
+            <a href="aboutUs.html"><button id="but"><img
+                        src="https://github.com/Nahir13/Ecommerce/blob/main/img/AboutUs.png?raw=true"
+                        style="height: 12px;">Nosotros</button>
             </a>
         </div>
     </div>
-<h1>Accesorios</h1>
+    <h1>Accesorios</h1>
     <br>
-<div class="contenedor">
-    <h1>Filtros</h1>
-    <hr>
-    <h5>Color:</h5>
-     <select name="select">
-    <option value="Azul" selected>Azul</option>
-    <option value="Rojo">Rojo</option>
-    <option value="Gris">Gris</option>
-    <option value="Negro">Negro</option>
-    </select>
-    <hr>
-    <h5>Marca:</h5>
-    <select name="select">
-        <label for="radio">
-    <option value="" selected>Chevrolet</option>
-    <option value="">Dodge</option>
-    <option value="">Ford</option>
-    <option value="">Tesla</option>
-    </select>
-    <hr>
-    <h5>Precio:</h5>
-    <select name="select">
-    <label for="radio">
-    <option value="Precio" selected>Hasta $1.000</option>
-    <option value="">De $1.000 a $5.000</option>
-    <option value="">Más de $5.000</option>
-    </select>
-</div>
-<div class="productos">
+    <div class="contenedor">
+        <h1>Filtros</h1>
+        <hr>
+        <h5>Accesorios:</h5>
+        <select name="select">
+            <option value="Azul" selected>Exterior del Auto</option>
+            <option value="Rojo">Interior del Auto</option>
+        </select>
+        <hr>
+        <h5>Marca:</h5>
+        <select name="select">
+            <label for="radio">
+                <option value="" selected>Chevrolet</option>
+                <option value="">Honda</option>
+                <option value="">Toyota</option>
+                <option value="">Subaru</option>
+        </select>
+        <hr>
+        <h5>Precio:</h5>
+        <select name="select">
+            <label for="radio">
+                <option value="Precio" selected>Hasta $1.500</option>
+                <option value="">De $1.500 a $5.000</option>
+                <option value="">Más de $5.000</option>
+        </select>
+    </div>
+    <div class="productos">
         <div class="foto">
             <h4>Focos de repuesto</h4>
             <hr>
-            <h3><u>Precio</u>: $6.765</h3>
+            <h3><u>Precio</u>: ARS$4.765</h3>
             <button class="PButton">Comprar</button>
-            <button class="PButton">Agregar al carrito</button>
+            <a href="Carrito.html">
+                <button class="PButton">Agregar al carrito</button>
+            </a>
         </div>
         <div class="foto1">
             <h4>Optica</h4>
             <hr>
-            <h3><u>Precio</u>: $25.000</h3>
+            <h3><u>Precio</u>: ARS$25.000</h3>
             <button class="PButton">Comprar</button>
-            <button class="PButton">Agregar al carrito</button>
+            <a href="Carrito.html">
+                <button class="PButton">Agregar al carrito</button>
+            </a>
         </div>
         <div class="foto2">
             <h4>Cubre Asiento</h4>
             <hr>
-            <h3><u>Precio</u>: $58.275</h3>
+            <h3><u>Precio</u>: ARS$58.275</h3>
             <button class="PButton">Comprar</button>
-            <button class="PButton">Agregar al carrito</button>
+            <a href="Carrito.html">
+                <button class="PButton">Agregar al carrito</button>
+            </a>
         </div>
         <div class="foto3">
             <h4>Apoya Cabeza</h4>
             <hr>
-            <h3><u>Precio</u>: $23.749</h3>
+            <h3><u>Precio</u>: ARS$23.749</h3>
             <button class="PButton">Comprar</button>
-            <button class="PButton">Agregar al carrito</button>
+            <a href="Carrito.html">
+                <button class="PButton">Agregar al carrito</button>
+            </a>
         </div>
-</div>        
+        <div class="foto4">
+            <h4>Palanca de Cambios</h4>
+            <hr>
+            <h3><u>Precio</u>: ARS$25.000</h3>
+            <button class="PButton">Comprar</button>
+            <a href="Carrito.html">
+                <button class="PButton">Agregar al carrito</button>
+            </a>
+        </div>
+        <div class="foto5">
+            <h4>Burro de Arranque</h4>
+            <hr>
+            <h3><u>Precio</u>: ARS$56.765</h3>
+            <button class="PButton">Comprar</button>
+            <a href="Carrito.html">
+                <button class="PButton">Agregar al carrito</button>
+            </a>
+        </div>
+        <div class="foto6">
+            <h4>Limpia parabrisas</h4>
+            <hr>
+            <h3><u>Precio</u>: ARS$9.500</h3>
+            <button class="PButton">Comprar</button>
+            <a href="Carrito.html">
+                <button class="PButton">Agregar al carrito</button>
+            </a>
+        </div>
+        <div class="foto7">
+            <h4>Aromatizante</h4>
+            <hr>
+            <h3><u>Precio</u>: ARS$1.500</h3>
+            <button class="PButton">Comprar</button>
+            <a href="Carrito.html">
+                <button class="PButton">Agregar al carrito</button>
+            </a>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
