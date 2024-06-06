@@ -384,7 +384,7 @@
   width: 100%;
   margin-bottom: 20px;
 }
-.login-box input[type="text"],
+.login-box input[type="email"],
 .login-box input[type="password"] {
   border: none;
   border-bottom: 1px solid #fff;
@@ -425,7 +425,97 @@
   color: #fff;
   color: #fff;
 }
+#aboutUs {
+  background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/FLogin.jpg?raw=true);
+  background-repeat: no repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0%;
+}
+P,
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.frontview {
+  width: 98%;
+  background-color: #ffffff;
+  z-index: 100%;
+  margin: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+.title {
+  font-size: 50px;
+  color: #313131;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
+.text {
+  width: 98%;
+  background-color: #ffffff;
+  z-index: 100%;
+  margin: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+.quienesomos1 {
+  font-size: 40px;
+  color: #000;
+}
+.quienesomos {
+  font-size: 20px;
+  color: #000;
+}
+.unidos {
+  width: 100%;
+  height: 20%;
+  background-repeat: no-repeat;
+}
+.bannerunidos1 {
+  font-size: 45px;
+  color: #ffffff;
+  z-index: 100%;
+  position: absolute;
+  top: 270px;
+  left: 7%;
+}
+.bannerunidos {
+  font-size: 40px;
+  color: #ffffff;
+  z-index: 100%;
+  position: absolute;
+  top: 760px;
+  left: 7%;
+}
+.banner {
+  font-size: 35px;
+  color: #ffffff;
+  z-index: 100%;
+  position: absolute;
+  top: 400px;
+  left: 7%;
+}
+@media (width <= 1199px) {
+  .banner {
+    display: flex;
+    font-size: 20px;
+    top: 320px;
+  }
+  .bannerunidos {
+    display: flex;
+    font-size: 22px;
+    top: 520px;
+  }
+  .bannerunidos1 {
+    display: flex;
+    font-size: 22px;
+    top: none;
+  }
+}
 .contenedor {
   text-align: center;
   background-color: #d6dac8;
@@ -598,7 +688,7 @@ u {
 }
 .PButton {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #3c44a7;
+  background-color: #2c0b8b;
   display: block;
   padding: 10px;
   color: white;
@@ -611,7 +701,7 @@ u {
   margin-bottom: 5px;
 }
 .PButton:hover {
-  background-color: #7ab2b2;
+  background-color: #661c3e;
 }
 
 @media (600px<= width <=1199) {
@@ -1030,6 +1120,179 @@ p {
 .boton-comprar:active {
   box-shadow: 0 0 #2c0b8e;
   top: 5px;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.piedepágina{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col p{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col p::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #2c0b8b;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+    &:hover{
+  color: #ffffff;
+  padding-left: 8px;
+  }
+}
+.footer-col .redes-sociales a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+    &:hover{
+      color: #24262b;
+      background-color: #ffffff;
+    }
+}
+.footer-col .copyright a{
+  color: #ffffff;
+}
+
+@media(width <= 767px){
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+  .copyright a{
+    width: 25;
+    padding: 0 15px;
+  }
+}
+.carrito-civic {
+  width:220px;
+  height: 120px;
+  background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%201.jpg?raw=true);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: civic;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:15s;
+  border-radius: 5px;
+} 
+@keyframes civic {
+  from {
+    background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/civic%201.jpg?raw=true);
+  }
+  to {
+      background-image: url(img/civic\ 2.jpg);
+  }
+}
+.carrito-hilux {
+  width:220px;
+  height: 100px;
+  background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%201.jpg?raw=true);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: hilux;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:15s;
+  border-radius: 5px;
+} 
+@keyframes hilux {
+  from {
+    background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/hilux%201.jpg?raw=true);
+  }
+  to {
+      background-image: url(img/hilux\ 2.jpg);
+  }
+}
+.carrito-yaris {
+  width:220px;
+  height: 130px;
+  background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%201.jpg?raw=true);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: yaris;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:15s;
+  border-radius: 5px;
+} 
+@keyframes yaris {
+  from {
+    background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%201.jpg?raw=true);
+  }
+  to {
+      background-image: url(https://github.com/Nahir13/Ecommerce/blob/main/img/yaris%202.jpg?raw=true);
+  }
+}
+.carrito-SW4{
+  width:220px;
+  height: 100px;
+  background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%201.jpg?raw=true);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: sw4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay:15s;
+  border-radius: 5px;
+} 
+@keyframes sw4 {
+  from {
+    background-image:url(https://github.com/Nahir13/Ecommerce/blob/main/img/sw4%201.jpg?raw=true);
+  }
+  to {
+      background-image: url(img/sw4\ 2.jpg);
+  }
 }
 .autosventa{
   font-size: 50px;
